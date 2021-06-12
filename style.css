@@ -1,0 +1,12 @@
+/*
+Theme Name: couch4pet
+Author: Krystian Pojasek <krystian@pojasek.com>
+Version: 1.0
+ */
+
+.thecontent p {
+	color: white;
+}
+.thumb !important {
+	width: 70%;
+}

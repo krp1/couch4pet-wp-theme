@@ -1,0 +1,19 @@
+.dropdown {
+    padding: 0 0 0 7px !important;
+}
+.footer2 {
+    color: #324068;
+    padding-top: 150px;
+}
+.nickname2 {
+    font-size: 75% !important;
+    color: #697491;
+}
+.promo {
+    border: 2px solid !important;
+    border-color: rgb(53, 52, 97) !important;
+}
+.about-banner2 {
+    background: url(../img/pexels.com/adorable-animal-animal-lover-1123999.jpg) center !important;
+    background-size: cover !important;
+  }
