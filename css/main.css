@@ -2296,6 +2296,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #mobile-nav ul li {
   position: relative;
+  padding-right: 30px;
 }
 
 #mobile-nav ul li a {
