@@ -2100,6 +2100,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(255, 255, 255, 0.15);
   padding-left: 15px;
   padding-right: 15px;
+  min-height: 60px;
 }
 
 #header {
@@ -2243,7 +2244,6 @@ h1, h2, h3, h4, h5, h6 {
 #mobile-nav-toggle {
   float: right;
   z-index: 999;
-  margin-top: 4px;
   border: 0;
   background: none;
   font-size: 24px;
@@ -2296,7 +2296,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 13px;
   text-transform: uppercase;
   overflow: hidden;
-  padding: 10px 22px 10px 15px;
+  padding: 5px;
   position: relative;
   text-decoration: none;
   width: 100%;
