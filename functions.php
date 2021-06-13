@@ -47,7 +47,16 @@ function frontbanner_widgetarea_init() {
     ) );
 
 }
+function frontbanner_widgetarea_social_init() {
+
+    register_sidebar( array(
+        'name'          => 'social-widgetarea',
+        'id'            => 'social-widgetarea'
+    ) );
+
+}
 add_action( 'widgets_init', 'frontbanner_widgetarea_init' );
+add_action( 'widgets_init', 'frontbanner_widgetarea_social_init' );
 
 
 add_action( 'wp_enqueue_scripts', 'enqueue_custom_assets' );

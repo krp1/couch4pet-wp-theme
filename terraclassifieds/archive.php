@@ -51,9 +51,9 @@ $use_images = terraclassifieds_get_option( '_tc_image_use_images', 1 );
 				<div class="row d-flex align-items-center justify-content-center">
 					<div class="about-content col-lg-12">
 						<h1 class="text-white">
-							Places in WROCŁAW				
+							Noclegi we Wrocławiu
 						</h1>	
-						<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span> search results</p>
+						<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span> wyniki wyszukiwania</p>
 					</div>	
 				</div>
 			</div>

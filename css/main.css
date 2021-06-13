@@ -2267,6 +2267,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.zoom-instagram-widget__item {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
 /* Mobile Nav Styling */
 #mobile-nav .sub-menu {
   background: rgba(0, 0, 0, 0.8);
@@ -4500,5 +4503,5 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-text a, .footer-text i {
-  color: #f8b600;
+  /* color: #f8b600; */
 }

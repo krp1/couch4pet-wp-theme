@@ -4,8 +4,8 @@
           <div class="row align-items-center">
               <div class="col-lg-12 col-sm-12 col-12 header-top-right">
                 <div class="header-social">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/couch4pet/"><i class="fa fa-instagram"></i></a>
+                    <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
                 </div>
               </div>
           </div>
