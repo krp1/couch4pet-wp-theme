@@ -2076,6 +2076,10 @@ h1, h2, h3, h4, h5, h6 {
   text-align: right;
 }
 
+.header-social {
+  font-size: larger;
+}
+
 .header-top .header-top-right .header-social a {
   color: #fff;
   margin-left: 15px;
@@ -4346,6 +4350,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .footer-social {
   text-align: right;
+  font-size: larger;
 }
 
 .footer-social a {
