@@ -60,7 +60,14 @@ add_action( 'widgets_init', 'frontbanner_widgetarea_social_init' );
 
 
 add_action( 'wp_enqueue_scripts', 'enqueue_custom_assets' );
-add_theme_support( 'post-thumbnails' );
-add_theme_support ('terraclassifieds');
+
+function thumbnails() {
+
+    add_theme_support( 'post-thumbnails' );
+    add_theme_support ('terraclassifieds');
+}
+add_action( 'init', 'thumbnails' );
+
+
 
 ?>

@@ -37,7 +37,6 @@ while ( $query->have_posts() ) : $query->the_post(); ?>
 						</div>
 						
 						<?php endwhile; ?>
-						<!--
 						<div class="col-lg-4 col-md-6 banner-right">
 							<ul class="nav nav-tabs" id="myTab" role="tablist">
 							  <li class="nav-item">
@@ -47,16 +46,13 @@ while ( $query->have_posts() ) : $query->the_post(); ?>
 							<div class="tab-content" id="myTabContent">
 							  <div class="tab-pane fade show active" id="flight" role="tabpanel" aria-labelledby="flight-tab">
 								<form class="form-wrap">
-									<input type="text" class="form-control" name="city" placeholder="City " onfocus="this.placeholder = ''" onblur="this.placeholder = 'City '" value="Wrocław">
-									<select id="pet-select" class="form-control dropdown" name="pet-select">
-										<option value="cat">Kot</option>
-										<option value="dog">Pies</option>
-									</select>
-									<a href="search_result.html" class="primary-btn text-uppercase">Znajdź opiekuna</a>
+									<input type="text" disabled="disabled" class="form-control" name="city" placeholder="City " onfocus="this.placeholder = ''" onblur="this.placeholder = 'City '" value="Wrocław">
+									<a href="<?php echo get_site_url(); ?>/?ad_location=wroclaw&post_type=classified" class="primary-btn text-uppercase">Znajdź opiekuna</a>
 								</form>
+								<p style="padding:3px;font-size:small">*wkrótce globalnie</p>
 							  </div>
 							  
-							</div>-->
+							</div>
 							<span style="list-style-type:none">
 						<?php dynamic_sidebar( 'frontbanner-widgetarea' ); ?>
 							</span>
@@ -85,7 +81,7 @@ while ($query->have_posts()) : $query->the_post();?>
 			<section class="other-issue-area section-gap">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
-						<div class="menu-content pb-70 col-lg-9">
+						<div class="menu-content col-lg-9">
 							<div class="title text-center">
 								<h1 class="mb-10">
 								<?php echo get_the_title(); ?>
@@ -104,75 +100,6 @@ wp_reset_query();
 }
 ?>
 
-			<!-- Start other-issue Area 
-			<section class="other-issue-area section-gap">
-				<div class="container">
-					<div class="row d-flex justify-content-center">
-						<div class="menu-content pb-70 col-lg-9">
-							<div class="title text-center">
-								<h1 class="mb-10">Need a help?</h1>
-								<p>Take your time. Read our articles that will explain our simple process.</p>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-3 col-md-6">
-							<div class="single-other-issue">
-								<div class="thumb">
-									<img class="img-fluid" src="img/pexels.com/adult-apple-blur-225232.jpg" alt="">
-								</div>
-								<a href="#">
-									<h4>How to be a host?</h4>
-								</a>
-								<p>
-									The preservation of human life is the ultimate value, a pillar of ethics and the foundation.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-other-issue">
-								<div class="thumb">
-									<img class="img-fluid" src="img/pexels.com/adult-beautiful-blur-935756.jpg" alt="">
-								</div>
-								<a href="#">
-									<h4>Earn money and be high rating host</h4>
-								</a>
-								<p>
-									I was always somebody who felt quite sorry for myself, what I had not got compared.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-other-issue">
-								<div class="thumb">
-									<img class="img-fluid" src="img/pexels.com/adorable-animal-baby-731553.jpg" alt="">
-								</div>
-								<a href="#">
-									<h4>How to book a place?</h4>
-								</a>
-								<p>
-									The following article covers a topic that has recently moved to center stage–at least it seems.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-other-issue">
-								<div class="thumb">
-									<img class="img-fluid" src="img/pexels.com/adorable-animal-animal-photography-1183434.jpg" alt="">
-								</div>
-								<a href="#">
-									<h4>Is it really so simple?</h4>
-								</a>
-								<p>
-									There are many kinds of narratives and organizing principles. Science is driven by evidence.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			 End other-issue Area -->
-
 
 			<!-- Start testimonial Area -->
 		    <section class="testimonial-area section-gap">
@@ -181,7 +108,6 @@ wp_reset_query();
 		                <div class="menu-content pb-70 col-lg-8">
 		                    <div class="title text-center">
 		                        <h1 class="mb-10">Opinie</h1>
-		                        <p>Ratings and comments comming from your neighbour fellaw</p>
 		                    </div>
 		                </div>
 		            </div>

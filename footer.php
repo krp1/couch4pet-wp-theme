@@ -1,7 +1,6 @@
 <!-- start footer Area -->
 <footer class="footer-area section-gap">
-				<div class="container">
-
+	<div class="container">
 					<div class="row">
 						<div class="col-lg-6  col-md-6 col-sm-6">
 							<div class="single-footer-widget">
@@ -9,31 +8,10 @@
 								<p>
 									Couch4.pet łączy ludzi, który chętnie zaopiekują się zwierzęciem pod nieobecność właścicieli. 
 									To znacznie więcej niż tylko zwierzęcy hotel, ponieważ jest kierowany do indywidualnych miłośników zwierząt posiadających miejsce, 
-									gdzie można przyjąć zwierzę.
+									gdzie można przyjąć zwierzaka.
 								</p>
 							</div>
 						</div>
-						<!-- <div class="col-lg-4 col-md-6 col-sm-6"> -->
-							<!-- <div class="single-footer-widget">
-								<h6>Na skróty</h6>
-								<div class="row">
-									<div class="col">
-										<ul>
-											<li><a href="#">Home</a></li>
-											<li><a href="#">Find a place</a></li>
-											<li><a href="#">Help</a></li>
-										</ul>
-									</div>
-									<div class="col">
-										<ul>
-											<li><a href="#">Become a host</a></li>
-											<li><a href="#">Blog</a></li>
-											<li><a href="#">Contact</a></li>
-										</ul>
-									</div>
-								</div>
-							</div> -->
-						<!-- </div> -->
 						<div class="col-lg-6  col-md-6 col-sm-6">
 							<div class="single-footer-widget mail-chimp">
 								<h6 class="mb-20">Instagram</h6>
@@ -52,6 +30,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
 						</div>
 					</div>
-				</div>
+	</div>
 			</footer>
 			<!-- End footer Area -->

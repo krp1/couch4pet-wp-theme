@@ -14,7 +14,7 @@
     <div class="container main-menu">
         <div class="row align-items-center justify-content-between d-flex">
           <div id="logo">
-            <a href="index.html"></a>
+            <a href="<?php echo home_url();?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" height="30px" /></a>
           </div>
           <nav id="nav-menu-container">
           <?php 
@@ -23,15 +23,6 @@
             );
             wp_nav_menu($menu_args);
           ?>
-<!--           
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">Find a place</a></li>
-                <li><a href="earn.html">Earn as a host</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul> -->
           </nav>
         </div>
     </div>

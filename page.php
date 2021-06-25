@@ -33,34 +33,31 @@
 				</div>
 			</section>
 			<!-- End banner Area -->	
+<!-- page.php -->
 
 
 <!-- Start Sample Area -->
 <br />
-			<br />
-			<div class="title text-center">
-				<h1 class="mb-6"><?php the_title();?></h1>
-				<br/>
-				<br/>
-			</div>
-			<!-- End Sample Area -->
-
-
-<!-- page.php -->
-
-<div class="whole-wrap">
-	<div class="container">
-	<?php if ( have_posts() ) : while ( have_posts() ) : the_post();
-	the_content();
-	endwhile; else: ?>
-	<p>Sorry, no posts matched your criteria.</p>
-	<?php endif; ?>
+<div class="container">
+	<div class="row ">
+		<div class="title text-center col-lg-12">
+			<h1><?php the_title();?></h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12">
+			<?php if ( have_posts() ) : while ( have_posts() ) : the_post();
+			the_content();
+			endwhile; else: ?>
+			<p>Sorry, no posts matched your criteria.</p>
+			<?php endif; ?>
+		</div>
 	</div>
 </div>
 
-
-
-<?php get_footer(); ?>		
+<?php
+get_footer();
+?>		
 
 		</body>
 	</html>
