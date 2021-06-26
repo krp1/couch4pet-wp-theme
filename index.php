@@ -49,7 +49,7 @@ while ( $query->have_posts() ) : $query->the_post(); ?>
 									<input type="text" disabled="disabled" class="form-control" name="city" placeholder="City " onfocus="this.placeholder = ''" onblur="this.placeholder = 'City '" value="Wrocław">
 									<a href="<?php echo get_site_url(); ?>/?ad_location=wroclaw&post_type=classified" class="primary-btn text-uppercase">Znajdź opiekuna</a>
 								</form>
-								<p style="padding:3px;font-size:small">*wkrótce globalnie</p>
+								<p style="padding-left:15px;padding-bottom:5px;font-size:small">*wkrótce globalnie</p>
 							  </div>
 							  
 							</div>
